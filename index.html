@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ludo — Pure HTML/CSS/JS (Static)</title>
+  <meta name="description" content="A robust, client-side Ludo game implemented as a static web app suitable for GitHub Pages." />
+  <meta name="author" content="Student (student@example.com)" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <h1>Ludo — Classic board game</h1>
+    <p>Robust, offline-capable, single-page Ludo played in the browser.</p>
+  </header>
+
+  <main class="game-wrap">
+    <section id="board" aria-label="Game board"></section>
+    <aside class="controls">
+      <div class="panel">
+        <h2>Game Panel</h2>
+        <div id="status" class="status">Welcome! Roll the dice to start.</div>
+        <div class="diceBox">
+          <span id="diceValue" class="diceValue">-</span>
+        </div>
+        <div class="buttons">
+          <button id="btnRoll" class="btn">Roll Dice</button>
+          <button id="btnReset" class="btn reset">Reset</button>
+        </div>
+        <p class="note">Author: student@example.com</p>
+      </div>
+    </aside>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
