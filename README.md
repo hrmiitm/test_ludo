@@ -1,24 +1,24 @@
-# Ludo — Static Web App (MIT)
+Ludo & Tic Tac Toe - Static Web App (MIT)
 
-This is a robust, client-side Ludo game built as a static web application suitable for deployment on GitHub Pages.
+This is a self-contained static web application that runs in the browser and can be deployed on GitHub Pages.
 
-- Tech: HTML, CSS, JavaScript (no server required)
-- License: MIT
+- Technologies: HTML, CSS, JavaScript (no server required)
 - Email of author: student@example.com
+- License: MIT
 
 What you get
-- An interactive 4-player Ludo-style board with a dice roller
-- Turn-based gameplay with simple capture rules (knock opponents back to home)
-- All code is contained in a small, portable static site you can drop into a GitHub Pages repo
+- A 2-in-1 board game experience: Ludo (with dice) and a simple Tic Tac Toe game
+- Client-side only, zero serverside code
+- Fully self-contained: no dependencies
 
-How to run
-- Create a GitHub repository
-- Push these files at the repository root
-- In GitHub Pages, enable Pages from the main branch (or docs folder) – then the site will be available at https://<you>.github.io/<repo>/
+How to run locally
+1) Open index.html in your browser
+2) Use the Ludo tab to play the dice-based race game
+3) Use the Tic Tac Toe tab to play classic 3x3 XO with a friend
 
 Notes
-- This is a self-contained educational implementation aimed at demonstrating static web app architecture and basic game logic.
-- If you need a fully polished release, consider extending with more artwork, audio, and additional rules.
+- This static site is designed to be dropped into a GitHub Pages repository.
+- For production release, consider more polished UI and assets.
 
 MIT License
 
@@ -28,11 +28,10 @@ Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
 to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+copies of the Software, and to permit persons to whom the Software is furnished
+to do so, subject to the following conditions:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
