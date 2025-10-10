@@ -14,6 +14,10 @@ body{margin:0;font-family:Inter,ui-sans-serif,system-ui,Arial,Helvetica;backgrou
 .header h1{margin:0;font-size:2rem}
 .header p{margin:.25rem 0 0}
 
+.tabs{display:flex;gap:8px;justify-content:center;padding:8px;background:white;border-bottom:1px solid #ddd}
+.tab{border:1px solid #ddd;background:#fff;padding:8px 14px;border-radius:8px;cursor:pointer}
+.tab.active{background:#f0f0f0;font-weight:700}
+
 .game-wrap{display:flex;gap:20px;justify-content:center;align-items:flex-start;padding:20px}
 
 #board{width:700px;height:700px;background:#f7f7f7;border:2px solid #333;border-radius:10px;position:relative;box-shadow:0 6px 14px rgba(0,0,0,.1)}
@@ -26,7 +30,13 @@ body{margin:0;font-family:Inter,ui-sans-serif,system-ui,Arial,Helvetica;backgrou
 .reset{background:#f9f9f9}
 .note{font-size:12px;opacity:.8;margin-top:6px}
 
-/* Tokens are absolute on the board and centered on their coordinates */
+/* Tic Tac Toe */
+.ttt-board{display:grid;grid-template-columns: repeat(3, 80px);grid-gap:8px;margin:12px auto 0;}
+.ttt-board .cell{width:80px;height:80px;display:flex;align-items:center;justify-content:center;font-size:2rem;border:2px solid #333;border-radius:8px;cursor:pointer;background:#fff}
+.cell.x{color:#e44}
+.cell.o{color:#3a3}
+
+/* Tokens are absolute on the board and centered on their coordinates for Ludo */
 .token{width:28px;height:28px;border-radius:50%;position:absolute;transform:translate(-50%,-50%);border:2px solid #fff;box-shadow:0 1px 3px rgba(0,0,0,.4);cursor:pointer}
 .token.red{background:var(--red)}
 .token.blue{background:var(--blue)}
@@ -46,3 +56,7 @@ body{margin:0;font-family:Inter,ui-sans-serif,system-ui,Arial,Helvetica;backgrou
   .panel{width:90vw}
   .controls{width:90vw}
 }
+
+/* Helper */
+.hidden{display:none}
+.show{display:block}
